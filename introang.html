@@ -1,16 +1,19 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="button" >
 <head>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="main.css">
 	<title>Title!</title>
 </head>
-<body>
-	<script src="introang.js"></script>
-	<div class="button1">
-	</div>
-	<div class="button2">
-	</div>
-
-
+<body ng-controller="buttonController">
+		<div>
+			<button class="button1" ng-click="click()">
+				<p>BUTTON</p>
+			</button>
+		</div>
+		<div class="button2">
+		</div>
+	
+		<script type="text/javascript" src="introang.js"></script>
 </body>
 </html>
