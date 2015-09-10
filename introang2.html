@@ -3,15 +3,15 @@
 <head>
 	<title>TITLE!</title>
 	<link rel="stylesheet" type="text/css" href="introang2.css">
-	<script language="javascript" type="text/javascript" src="introang2.js"></script>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
 </head>
 <body ng-controller="appController">
-	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
-	<h1 ng-mouseenter="mousepink()" ng-mouseleave="unpink()" >Header!</h1>
-	<h2 ng-mouseenter="mousepink()" ng-mouseleave="unpink()" >Another Header!!</h2>
-	<p ng-mouseenter="mousepink()" ng-mouseleave="unpink()" >ASDFPIOJasdoinasdofgiuasdf:LJKASDVPOIMWAES()FTUJSADF:KLMASDOPFIUasdoiufhasdfo;iashjdf</p>
-	<a href="http://www.denverbroncos.com">Broncos</a>
-	<p ng-mouseenter="mousepink()" ng-mouseleave="unpink()" >123498671234509871234509871234</p>
+		<h1 ng-class="{pink: hover1}" ng-mouseenter="hover1 = true" ng-mouseleave="hover1 = false">Header!</h1>
+		<h2 ng-class="{pink: hover2}" ng-mouseenter="hover2 = true" ng-mouseleave="hover2 = false">Another Header!!</h2>
+		<p ng-class="{pink: hover3}" ng-mouseenter="hover3 = true" ng-mouseleave="hover3 = false">ASDFPIOJasdoinasdofgiuasdf:LJKASDVPOIMWAES()FTUJSADF:KLMASDOPFIUasdoiufhasdfo;iashjdf</p>
+		<a href="http://www.denverbroncos.com">Broncos</a>
+		<p ng-class="{pink: hover4}" ng-mouseenter="hover4 = true" ng-mouseleave="hover4 = false">123498671234509871234509871234</p>
+	<script language="javascript" type="text/javascript" src="introang2.js"></script>
 
 </body>
 </html>
