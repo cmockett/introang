@@ -1,0 +1,21 @@
+.button {
+	background-color: blue;
+	height:30vh;
+	width:30vw;
+	position:fixed;
+	margin:35vh 35vw 35vh 35vw;
+	font-size: 50px;
+	color:white;
+	z-index:1;
+
+}
+.hDiv {
+	position: fixed;
+	height:20vh;
+	width:20vw;
+	margin:40vh 40vw;
+	background-color: red;
+	color:white;
+	font-size:30px;
+	z-index:10;
+}
