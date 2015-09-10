@@ -28,11 +28,24 @@ var app = angular.module("myApp", [])
 // });
 // }
 
-var mouseFunction = function(){
-	
-}
+// var mouseFunction = function($scope){
+// 		$scope.header = "Header!!";
+// 	$scope.exclamation = function (){
+// 		$scope.header += "!";
+// 	}
+// }
 
-
+// var mouseFunction = function($scope){
+// 	$scope.myLink = {};
+// 	$scope.linkHide=false;
+// 	$scope.myLink.doClick = function($event) {
+// 		var linkInput = confirm("Are you sure????");
+// 		if (linkInput == false){
+// 			$event.preventDefault();
+// 			$scope.linkHide=true;
+// 		}
+// 	}
+// }
 	
 
 
